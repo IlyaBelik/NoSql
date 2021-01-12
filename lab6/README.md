@@ -8,9 +8,9 @@ https://logz.io/blog/install-elk-stack-azure/ . Так само там ми зн
 ![alt](../images/lab6_elastic_result.png)
 6. Далі переходимо у Logic App > створюємо Blank app > обираємо першим кроком When event hub is listening > конектимося до нашого eventhub
 7. Наступним кроком обираємо HTTP POST method та заповнюємо наступним чином 
-![alt](https://imgur.com/a/Pl0DJ4m)
+![alt](rOQrI26.jpeg)
 Відправляємо дані на event hub та перевіряємо, чи спрацювали тригери
 ![alt](../images/lab6_logicapp_triggers.png)
 
 Переходимо по адресі еластіку та дивимось чи відобразилися дані
-![alt](https://prnt.sc/wly07i)
+![alt](../images/lab6_elastic_result2.png)
