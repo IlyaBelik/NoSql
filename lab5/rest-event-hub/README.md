@@ -4,9 +4,9 @@
 
 2. Далі, створюємо resource group. 
 3. Створюємо EventHub та event hub instance та налаштовуємо для нього policy
-![alt](../images/eventhub.png)
+![alt](../../images/eventhub.png)
 4.  Так само робимо з redis cache
-![alt](../images/redis.png)
+![alt](../../images/redis.png)
 
 # Code
 
@@ -15,7 +15,7 @@
 2. В папці Service в файлі SendDataEventHubImpl.java міняємо CACHE_HOSTNAME, CACHE_KEY, namespace, hub name, Connection string–primary key, Primary key на відповідні з Azure.
 
 3. Run project
-![alt](../images/lab5_code.png)
+![alt](../..//images/lab5_code.png)
 
 # Post Data
 
@@ -29,12 +29,12 @@ body:
  "strategy": "eventHub/redis" // відповідна стратегія
 }
 ```
-![alt](../images/lab5_postman_event.png)
-![alt](../images/lab5_postman_redis.png)
+![alt](../../images/lab5_postman_event.png)
+![alt](../../images/lab5_postman_redis.png)
 
 
 3. Переходимо у Event Hub instance -> proccess data і дивимось результат
 Для EventHub:
-![alt](../images/eventhub_result.png)
+![alt](../../images/eventhub_result.png)
 Для redis: робимо реквест в терміналі hgetAll ConsoleLog
-![alt](../images/redis_result.png)
+![alt](../../images/redis_result.png)
